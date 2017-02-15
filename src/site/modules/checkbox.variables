@@ -1,0 +1,15 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@sliderTransitionDuration: 0.1s;
+@toggleLaneWidth: 40px;
+@toggleLaneHeight: 19px;
+
+@toggleHandleRadius: 13px;
+@toggleHandleSize: 13px;
+@toggleHandleOffset: 3px;
+
+@toggleOffOffset: 3px;
+@toggleOnOffset: (@toggleLaneWidth - @toggleHandleSize) - @toggleOffOffset;
+
+@toggleTransitionDuration: 0.1s;

@@ -1,0 +1,6 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@verticalPadding: 12px;
+@horizontalPadding: 40px;
+@activeBackgroundColor: @veryDarkGreen;

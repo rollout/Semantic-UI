@@ -1,0 +1,76 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.toggle.checkbox .box:before,
+.ui.toggle.checkbox label:before {
+  transition: @toggleHandleTransition;
+}
+
+/* strip */
+
+/* primary */
+.ui.toggle.checkbox.primary .box:before,
+.ui.toggle.checkbox.primary label:before {
+  background: @white;
+}
+
+.ui.toggle.checkbox.primary:hover .box:before,
+.ui.toggle.checkbox.primary:hover label:before {
+  background: @lightGrey;
+}
+
+.ui.toggle.checkbox.primary input:checked ~ .box:before,
+.ui.toggle.checkbox.primary input:checked ~ label:before {
+  background: @grey !important;
+}
+
+.ui.toggle.checkbox.primary:hover input:checked ~ .box:before,
+.ui.toggle.checkbox.primary:hover input:checked ~ label:before {
+  background: @blue !important;
+}
+
+/* secondary */
+.ui.toggle.checkbox.secondary .box:before,
+.ui.toggle.checkbox.secondary label:before {
+  background: @grey;
+}
+
+.ui.toggle.checkbox.secondary:hover .box:before,
+.ui.toggle.checkbox.secondary:hover label:before {
+  background: @darkGrey;
+}
+
+.ui.toggle.checkbox.secondary input:checked ~ .box:before,
+.ui.toggle.checkbox.secondary input:checked ~ label:before {
+  background: @orange !important;
+}
+
+.ui.toggle.checkbox.secondary:hover input:checked ~ .box:before,
+.ui.toggle.checkbox.secondary:hover input:checked ~ label:before {
+  background: @darkOrange !important;
+}
+
+
+/* handle */
+
+/* primary */
+.ui.toggle.checkbox.primary .box:after,
+.ui.toggle.checkbox.primary label:after {
+  background: @blue;
+}
+
+.ui.toggle.checkbox.primary input:checked ~ .box:after,
+.ui.toggle.checkbox.primary input:checked ~ label:after {
+  background-color: @white !important;
+}
+
+/* secondary */
+.ui.toggle.checkbox.secondary .box:after,
+.ui.toggle.checkbox.secondary label:after {
+  background: @white;
+}
+
+.ui.toggle.checkbox.secondary input:checked ~ .box:after,
+.ui.toggle.checkbox.secondary input:checked ~ label:after {
+  background-color: @white !important;
+}
