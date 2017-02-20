@@ -4,4 +4,5 @@
 
 .ui.button {
   font-family: 'Lato-Bold';
+  margin: 0;
 }

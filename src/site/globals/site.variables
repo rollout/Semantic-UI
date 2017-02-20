@@ -1,6 +1,8 @@
 /*******************************
      User Global Variables
 *******************************/
+@importGoogleFonts: false;
+
 @inputVerticalPadding: @18px;
 @orange: #f6a82b; // macaroni-and-cheese
 @darkOrange: #d5952e;
@@ -12,6 +14,7 @@
 @lightGrey: #dededf; // silver
 @grey: #c2c1c1; // pinkish-grey
 @darkGrey: #9a9a9a; // warm-grey
+@brownishGrey: #666666;
 
 @primaryColor: @green;
 
@@ -19,3 +22,6 @@
 @primaryColorFocus: @darkGreen;
 @primaryColorActive: @veryDarkGreen;
 @primaryColorDown: @veryDarkGreen;
+
+@linkColor: #2e97e5;
+@linkHoverColor: #2281c7;
