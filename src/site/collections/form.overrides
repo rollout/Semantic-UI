@@ -1,3 +1,11 @@
 /*******************************
          Site Overrides
 *******************************/
+.ui.form .field > label {
+  font-family: 'Lato-Bold';
+}
+
+.ui.form .disabled.field .ui.input input {
+  background: @veryLightGrey;
+  color: @brownishGrey;
+}

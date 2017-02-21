@@ -10,5 +10,7 @@
 
 @actionBorder: none;
 @actionBackground: white;
+@actionPadding: 28px 24px;
 
 @contentBackground: white;
+@contentPadding: 28px 24px;
