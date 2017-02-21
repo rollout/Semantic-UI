@@ -1,3 +1,7 @@
 /*******************************
          Site Overrides
 *******************************/
+.ui.disabled.input input {
+  color: @brownishGrey;
+  background: @veryLightGrey;
+}

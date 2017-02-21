@@ -11,6 +11,7 @@
 @veryDarkGreen: #1a9c84;
 @blue: #2e97e5;
 
+@veryLightGrey: #f5f5f5; 
 @lightGrey: #dededf; // silver
 @grey: #c2c1c1; // pinkish-grey
 @darkGrey: #9a9a9a; // warm-grey
