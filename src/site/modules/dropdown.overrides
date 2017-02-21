@@ -1,3 +1,15 @@
 /*******************************
         User Overrides
 *******************************/
+.ui.selection.dropdown.version-selection {
+  border-radius: 0;
+  padding: 14px 24px;
+}
+
+.ui.selection.dropdown.version-selection .dropdown.icon {
+  padding: 14px;
+}
+
+.ui.selection.dropdown.version-selection .menu {
+  border-radius: 0;
+}
