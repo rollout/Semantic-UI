@@ -26,3 +26,6 @@
 
 @linkColor: #2e97e5;
 @linkHoverColor: #2281c7;
+
+@inputVerticalPadding   : @relative10px;
+@inputHorizontalPadding : @relative14px;
