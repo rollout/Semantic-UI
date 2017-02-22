@@ -13,3 +13,30 @@
 .ui.selection.dropdown.version-selection .menu {
   border-radius: 0;
 }
+
+
+.ui.dropdown.current-app .text {
+  font-size: 16px;
+}
+
+.ui.dropdown.current-app .text,
+.ui.dropdown.current-app .dropdown.icon {
+  color: @brownishGrey;
+}
+
+.ui.dropdown.current-app:hover .text,
+.ui.dropdown.current-app:hover .dropdown.icon {
+  color: black;
+}
+
+.ui.dropdown.current-app .menu {
+  margin-top: 27px;
+  width: 188px;
+  left: -56px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ui.dropdown.active.visible .dropdown.icon::before {
+  content: '\f0d8'
+}
