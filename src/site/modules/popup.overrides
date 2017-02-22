@@ -1,3 +1,14 @@
 /*******************************
         User Overrides
 *******************************/
+.ui.popup.error {
+  box-shadow: none;
+  border-color: @red;
+  color: @red;
+  padding: 4px 6px;
+  font-size: 0.8rem;
+}
+
+.ui.popup.error:before {
+  box-shadow: 1px 1px 0px 0px @red;
+}
