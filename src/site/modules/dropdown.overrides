@@ -40,3 +40,118 @@
 .ui.dropdown.active.visible .dropdown.icon::before {
   content: '\f0d8'
 }
+
+ /*******************************
+        INFINITY SELECT
+*******************************/
+
+/** Dropdown Icon */
+
+.ui.dropdown .menu div .item .dropdown.icon {
+  width: auto;
+  float: @itemDropdownIconFloat;
+  margin: @itemDropdownIconMargin;
+}
+.ui.dropdown .menu div .item .dropdown.icon + .text {
+  margin-right: @itemDropdownIconDistance;
+}
+
+/** Menu Item */
+
+.ui.dropdown .menu div .item {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  border: @itemBorder;
+  height: @itemHeight;
+  text-align: @itemTextAlign;
+
+  border-top: @itemDivider;
+  line-height: @itemLineHeight;
+  font-size: @itemFontSize;
+  color: @itemColor;
+
+  padding: @itemPadding !important;
+  font-size: @itemFontSize;
+  text-transform: @itemTextTransform;
+  font-weight: @itemFontWeight;
+  box-shadow: @itemBoxShadow;
+  -webkit-touch-callout: none;
+}
+.ui.dropdown .menu div .item:first-child {
+  border-top-width: 0px;
+}
+
+/** Item Description */
+
+.ui.dropdown > .text > .description,
+.ui.dropdown .menu div .item > .description {
+  float: @itemDescriptionFloat;
+  margin: @itemDescriptionMargin;
+  color: @itemDescriptionColor;
+}
+
+/** Sub Elements */
+
+.ui.dropdown .menu div .item > .icon,
+.ui.dropdown .menu div .item > .label,
+.ui.dropdown .menu div .item > .flag,
+.ui.dropdown .menu div .item > .image,
+.ui.dropdown .menu div .item > img  {
+  margin-top: @itemLineHeightOffset;
+}
+
+.ui.dropdown .menu div .item > .icon,
+.ui.dropdown .menu div .item > .label,
+.ui.dropdown .menu div .item > .flag,
+.ui.dropdown .menu div .item > .image,
+.ui.dropdown .menu div .item > img  {
+  margin-left: 0em;
+  float: @itemElementFloat;
+  margin-right: @itemElementDistance;
+}
+
+
+/** Image */
+
+.ui.dropdown .menu div .item > .image,
+.ui.dropdown .menu div .item > img {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  max-height: @menuImageMaxHeight;
+}
+
+/** Menu */
+
+/* Remove Menu Item Divider */
+.ui.dropdown .ui.menu div .item:before,
+.ui.menu .ui.dropdown .menu div .item:before {
+  display: none;
+}
+
+/** Menu Item */
+.ui.selection.dropdown .menu div .item {
+  border-top: @selectionItemDivider;
+  padding: @selectionItemPadding !important;
+  white-space: normal;
+  word-wrap: normal;
+}
+
+/* Menu Item Hover */
+.ui.dropdown .menu div .item:hover {
+  background: @hoveredItemBackground;
+  color: @hoveredItemColor;
+  z-index: @hoveredZIndex;
+}
+
+/** Error */
+
+.ui.dropdown.error > .menu div .item {
+  color: @errorItemTextColor;
+}
+
+/* Item Hover */
+.ui.dropdown.error > .menu div .item:hover {
+  background-color: @errorItemHoverBackground;
+}
