@@ -19,12 +19,12 @@
   font-size: 16px;
 }
 
-.ui.dropdown.current-app .text,
+.ui.dropdown.current-app .item,
 .ui.dropdown.current-app .dropdown.icon {
   color: @brownishGrey;
 }
 
-.ui.dropdown.current-app:hover .text,
+.ui.dropdown.current-app .item:hover,
 .ui.dropdown.current-app:hover .dropdown.icon {
   color: black;
 }
