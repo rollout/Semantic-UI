@@ -6,3 +6,14 @@
   font-family: 'Lato-Bold';
   margin: 0;
 }
+
+.ui.labeled.icon.buttons .button,
+.ui.labeled.icon.button {
+  padding-left: 15px !important;
+  padding-right: 50px !important;
+}
+
+.ui.labeled.icon.buttons > .button > .icon,
+.ui.labeled.icon.button > .icon {
+  width: 40px;
+}

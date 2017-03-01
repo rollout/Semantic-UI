@@ -5,3 +5,12 @@
   color: @brownishGrey;
   background: @veryLightGrey;
 }
+
+.ui.input.monospace input {
+  font-family: Courier New, Courier, monospace !important;
+}
+
+textarea.monospace {
+  font-family: Courier New, Courier, monospace !important;
+}
+
