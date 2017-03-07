@@ -1,5 +1,21 @@
 ![Semantic](http://semantic-ui.com/images/logo.png)
 
+# Rollout.io
+```bash
+git clone https://github.com/rollout/Semantic-UI.git
+cd Semantic-UI
+yarn
+yarn run install (choose Automatic, Don't remove setup files, Yes - build Semantic now)
+```
+Now Gulp runs and build files in `./dist/`
+
+Now symlink to get access to css
+```bash
+cd ~/rollout/www.tweaker.io/
+mkdir -p .tmp && cd .tmp
+ln -s ~/Semantic-UI/dist semantic
+```
+
 # Semantic UI
 
 [![Join the chat at https://gitter.im/Semantic-Org/Semantic-UI](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Semantic-Org/Semantic-UI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
