@@ -1,6 +1,7 @@
 /*******************************
          Site Overrides
 *******************************/
+
 @headerBackground: rgba(222, 222, 223, 0.3);
 @headerBorder: none;
 @headerPadding: 28px 24px;
@@ -14,3 +15,20 @@
 
 @contentBackground: white;
 @contentPadding: 28px 24px;
+
+/* Size Widths */
+@compactRatio: 0.4420;
+
+/* Derived Responsive Sizes */
+@compactHeaderSize: @smallHeaderSize;
+@compactMobileWidth: @mobileWidth;
+@compactTabletWidth: (@tabletWidth * @compactRatio);
+@compactComputerWidth: (@computerWidth * @compactRatio);
+@compactLargeMonitorWidth: (@largeMonitorWidth * @compactRatio);
+@compactWidescreenMonitorWidth: (@widescreenMonitorWidth * @compactRatio);
+
+@compactMobileMargin: 0em 0em 0em -(@compactMobileWidth / 2);
+@compactTabletMargin: 0em 0em 0em -(@compactTabletWidth / 2);
+@compactComputerMargin: 0em 0em 0em -(@compactComputerWidth / 2);
+@compactLargeMonitorMargin: 0em 0em 0em -(@compactLargeMonitorWidth / 2);
+@compactWidescreenMonitorMargin: 0em 0em 0em -(@compactWidescreenMonitorWidth / 2);

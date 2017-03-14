@@ -1,3 +1,39 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/*--- Dark Mint ---*/
+.ui[class*="dark mint"].labels .label,
+.ui[class*="dark mint"].label {
+  background-color: @darkMint !important;
+  border-color: @darkMint !important;
+  color: @darkMintTextColor !important;
+}
+/* Link */
+.ui[class*="dark mint"].labels .label:hover,
+a.ui[class*="dark mint"].label:hover{
+  background-color: @darkMintHover !important;
+  border-color: @darkMintHover !important;
+  color: @darkMintHoverTextColor !important;
+}
+/* Corner */
+.ui[class*="dark mint"].corner.label,
+.ui[class*="dark mint"].corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui[class*="dark mint"].ribbon.label {
+  border-color: @darkMintRibbonShadow !important;
+}
+/* Basic */
+.ui.basic[class*="dark mint"].label {
+  background-color: @white !important;
+  color: @darkMint !important;
+  border-color: @darkMint !important;
+}
+.ui.basic[class*="dark mint"].labels a.label:hover,
+a.ui.basic[class*="dark mint"].label:hover {
+  background-color: @white !important;
+  color: @darkMintHover !important;
+  border-color: @darkMintHover !important;
+}

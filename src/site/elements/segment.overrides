@@ -1,3 +1,13 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.fitted.segment {
+  padding: 0;
+}
+
+.ui.flat.segment {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}

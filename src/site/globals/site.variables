@@ -1,31 +1,63 @@
 /*******************************
      User Global Variables
 *******************************/
+
 @importGoogleFonts: false;
-
 @inputVerticalPadding: @18px;
-@orange: #f6a82b; // macaroni-and-cheese
-@darkOrange: #d5952e;
-@green: #51caab;
-@darkGreen: #3caf92;
-@veryDarkGreen: #1a9c84;
-@blue: #2e97e5;
-
-@veryLightGrey: #f5f5f5; 
-@lightGrey: #dededf; // silver
-@grey: #c2c1c1; // pinkish-grey
-@darkGrey: #9a9a9a; // warm-grey
-@brownishGrey: #666666;
-
-@primaryColor: @green;
-
-@primaryColorHover: @darkGreen;
-@primaryColorFocus: @darkGreen;
-@primaryColorActive: @veryDarkGreen;
-@primaryColorDown: @veryDarkGreen;
-
-@linkColor: #2e97e5;
-@linkHoverColor: #2281c7;
 
 @inputVerticalPadding   : @relative10px;
 @inputHorizontalPadding : @relative14px;
+
+/*-------------------
+      Brand Colors
+--------------------*/
+
+@primaryColor: @lightBlue;
+@primaryColorHover: @blue;
+@primaryColorFocus: @darkBlue;
+@primaryColorActive: @veryDarkBlue;
+@primaryColorDown: @veryDarkBlue;
+
+/*-------------------
+        Hover
+--------------------*/
+@darkMintHover: saturate(darken(@darkMint, 5), 10, relative);
+
+/*-------------------
+        Links
+--------------------*/
+
+@linkColor: @blue;
+@linkHoverColor: @darkBlue;
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Basic Colors  ---*/
+@orange: #f6a82b; // macaroni-and-cheese
+@green: #51caab;
+@blue: #2e97e5;
+@grey: #c2c1c1; // pinkish-grey
+@brownishGrey: #666666;
+
+/*---  Very Light Colors  ---*/
+@veryLightGrey: #f5f5f5; 
+
+/*---  Light Colors  ---*/
+@lightBlue: #66b5ef;
+@lightGrey: #dededf; // silver
+
+/*---  Dark Colors  ---*/
+@darkOrange: #d5952e;
+@darkMint: #5ecd76;
+@darkGreen: #3caf92;
+@darkBlue: #2281c7;
+@darkGrey: #9a9a9a; // warm-grey
+
+/*---  Very Dark Colors  ---*/
+@veryDarkGreen: #1a9c84;
+@veryDarkBlue: saturate(darken(@darkBlue, 5), 10, relative);
+
+/*--- Colored Text ---*/
+@darkMintTextColor: @white;
