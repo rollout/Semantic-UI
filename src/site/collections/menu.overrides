@@ -7,5 +7,7 @@
 }
 
 .ui.secondary.pointing.menu .active.item {
+  font-family: @boldFont;
+  font-weight: @boldFontWeight;
   color: @secondaryPointingActiveTextColor !important;
 }

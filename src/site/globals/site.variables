@@ -61,3 +61,10 @@
 
 /*--- Colored Text ---*/
 @darkMintTextColor: @white;
+
+/*--- Fonts --- */
+@boldFont: 'Lato-Bold', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@boldFontWeight: normal;
+
+@headerFont: @boldFont;
+@headerFontWeight: @boldFontWeight;
