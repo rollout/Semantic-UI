@@ -1,5 +1,5 @@
 /*******************************
     User Variable Overrides
 *******************************/
-
 @secondaryBackground: white;
+@itemTextColor: @darkGrey;

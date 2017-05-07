@@ -11,3 +11,7 @@
   font-weight: @boldFontWeight;
   color: @secondaryPointingActiveTextColor !important;
 }
+
+.ui.large.menu {
+  font-size: 14px;
+}
