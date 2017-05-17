@@ -1,6 +1,7 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
 @sliderTransitionDuration: 0.1s;
 @toggleLaneWidth: 40px;
 @toggleLaneHeight: 19px;
@@ -13,3 +14,11 @@
 @toggleOnOffset: (@toggleLaneWidth - @toggleHandleSize) - @toggleOffOffset;
 
 @toggleTransitionDuration: 0.1s;
+
+/*** Colors ***/
+
+@purpleBackgroundColor: @purple;
+@purpleForegroundColor: #fff;
+
+@cyanBackgroundColor: @cyan;
+@cyanForegroundColor: #fff;

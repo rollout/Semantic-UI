@@ -39,6 +39,8 @@
 @blue: #2e97e5;
 @grey: #c2c1c1; // pinkish-grey
 @brownishGrey: #666666;
+@purple: #9b60e7;
+@cyan: #47cce6;
 
 /*---  Very Light Colors  ---*/
 @veryLightGrey: #f5f5f5; 

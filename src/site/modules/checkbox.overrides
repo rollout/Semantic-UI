@@ -6,9 +6,12 @@
   transition: @toggleHandleTransition;
 }
 
-/* strip */
+/*************/
+/*** Strip ***/
+/*************/
 
-/* primary */
+/*** Primary ***/
+
 .ui.toggle.checkbox.primary .box:before,
 .ui.toggle.checkbox.primary label:before {
   background: @white;
@@ -29,7 +32,8 @@
   background: @blue !important;
 }
 
-/* secondary */
+/*** Secondary ***/
+
 .ui.toggle.checkbox.secondary .box:before,
 .ui.toggle.checkbox.secondary label:before {
   background: @grey;
@@ -50,10 +54,12 @@
   background: @darkOrange !important;
 }
 
+/**************/
+/*** Handle ***/
+/**************/
 
-/* handle */
+/*** Primary ***/
 
-/* primary */
 .ui.toggle.checkbox.primary .box:after,
 .ui.toggle.checkbox.primary label:after {
   background: @blue;
@@ -64,7 +70,8 @@
   background-color: @white !important;
 }
 
-/* secondary */
+/*** Secondary ***/
+
 .ui.toggle.checkbox.secondary .box:after,
 .ui.toggle.checkbox.secondary label:after {
   background: @white;
@@ -73,4 +80,32 @@
 .ui.toggle.checkbox.secondary input:checked ~ .box:after,
 .ui.toggle.checkbox.secondary input:checked ~ label:after {
   background-color: @white !important;
+}
+
+/**************/
+/*** Colors ***/
+/**************/
+
+/*** Purple ***/
+
+.ui.purple.checkbox input:checked ~ .box:before,
+.ui.purple.checkbox input:checked ~ label:before {
+  background: @purpleBackgroundColor;
+  border: 0;
+}
+.ui.purple.checkbox input:checked ~ .box:after,
+.ui.purple.checkbox input:checked ~ label:after {
+  color: @purpleForegroundColor;
+}
+
+/*** Cyan ***/
+
+.ui.cyan.checkbox input:checked ~ .box:before,
+.ui.cyan.checkbox input:checked ~ label:before {
+  background: @cyanBackgroundColor;
+  border: 0;
+}
+.ui.cyan.checkbox input:checked ~ .box:after,
+.ui.cyan.checkbox input:checked ~ label:after {
+  color: @cyanForegroundColor;
 }
