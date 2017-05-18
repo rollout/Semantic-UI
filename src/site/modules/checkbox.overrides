@@ -1,14 +1,15 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/**************/
+/*** Toggle ***/
+/**************/
+
 .ui.toggle.checkbox .box:before,
 .ui.toggle.checkbox label:before {
   transition: @toggleHandleTransition;
 }
-
-/*************/
-/*** Strip ***/
-/*************/
 
 /*** Primary ***/
 
@@ -54,9 +55,9 @@
   background: @darkOrange !important;
 }
 
-/**************/
-/*** Handle ***/
-/**************/
+/*********************/
+/*** Toggle Handle ***/
+/*********************/
 
 /*** Primary ***/
 
@@ -82,9 +83,57 @@
   background-color: @white !important;
 }
 
-/**************/
-/*** Colors ***/
-/**************/
+/*** Variation: Informative (On / Off) ***/
+
+.ui.toggle.checkbox.informative {
+  min-height: @toggleHeightInformative;
+  width: @toggleWidthInformative;
+}
+
+/* Input */
+.ui.toggle.checkbox.informative input {
+  width: @toggleWidthInformative;
+  height: @toggleHeightInformative;
+}
+
+/* Switch */
+.ui.toggle.checkbox.informative .box:before,
+.ui.toggle.checkbox.informative label:before {
+  width: @toggleLaneWidthInformative;
+  height: @toggleLaneHeightInformative;
+  content: 'OFF';
+  font-family: 'Lato-Bold';
+  font-size: @labelFontSizeInformative;
+  color: @toggleOffLabelColorInformative !important;
+  padding: @toggleOffLabelDistanceInformative !important;
+  transition: @toggleHandleTransitionInformative;
+}
+
+.ui.toggle.checkbox.informative .box:after,
+.ui.toggle.checkbox.informative label:after {
+  top: @toggleHandleOffsetInformative;
+}
+
+.ui.toggle.checkbox.informative input ~ .box:after,
+.ui.toggle.checkbox.informative input ~ label:after {
+  left: @toggleOffOffsetInformative;
+}
+
+/* Active */
+.ui.toggle.checkbox.informative input:checked ~ .box:before,
+.ui.toggle.checkbox.informative input:checked ~ label:before {
+  content: 'ON';
+  color: @toggleOnLabelColorInformative !important;
+  padding: @toggleOnLabelDistanceInformative !important;
+}
+.ui.toggle.checkbox.informative input:checked ~ .box:after,
+.ui.toggle.checkbox.informative input:checked ~ label:after {
+  left: @toggleOnOffsetInformative;
+}
+
+/***********************/
+/*** Checkbox Colors ***/
+/***********************/
 
 /*** Purple ***/
 

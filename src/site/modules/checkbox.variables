@@ -2,18 +2,52 @@
     User Variable Overrides
 *******************************/
 
+/**************/
+/*** Toggle ***/
+/**************/
+
 @sliderTransitionDuration: 0.1s;
+@toggleLaneBackground: @grey;
 @toggleLaneWidth: 40px;
 @toggleLaneHeight: 19px;
 
 @toggleHandleRadius: 13px;
 @toggleHandleSize: 13px;
-@toggleHandleOffset: 3px;
+@toggleHandleOffset: (@toggleLaneHeight - @toggleHandleSize) / 2;
 
-@toggleOffOffset: 3px;
+@toggleOffOffset: @toggleLaneWidth * 0.075;
 @toggleOnOffset: (@toggleLaneWidth - @toggleHandleSize) - @toggleOffOffset;
 
+@toggleFocusColor: @darkGrey;
+
 @toggleTransitionDuration: 0.1s;
+
+/** Variations **/
+
+@toggleLaneWidthInformative: 54px;
+@toggleLaneHeightInformative: 21px;
+
+@toggleWidthInformative: @toggleLaneWidthInformative;
+@toggleHeightInformative: @toggleLaneHeightInformative;
+
+@toggleHandleTransitionInformative:
+  background @sliderTransitionDuration @defaultEasing,
+  left @sliderTransitionDuration @defaultEasing,
+  padding @sliderTransitionDuration @defaultEasing
+;
+
+@toggleHandleOffsetInformative: (@toggleLaneHeightInformative - @toggleHandleSize) / 2;
+
+@toggleOffOffsetInformative: @toggleLaneWidthInformative * 0.075;
+@toggleOnOffsetInformative: (@toggleLaneWidthInformative - @toggleHandleSize) - @toggleOffOffsetInformative;
+
+@toggleOffLabelDistanceInformative: 0.15em 0 0 1.8em;
+@toggleOffLabelColorInformative: #fff;
+
+@toggleOnLabelDistanceInformative: 0.15em 0 0 0.75em ;
+@toggleOnLabelColorInformative: #fff;
+
+@labelFontSizeInformative: 0.9em;
 
 /*** Colors ***/
 

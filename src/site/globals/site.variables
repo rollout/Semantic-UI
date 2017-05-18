@@ -37,7 +37,7 @@
 @orange: #f6a82b; // macaroni-and-cheese
 @green: #51caab;
 @blue: #2e97e5;
-@grey: #c2c1c1; // pinkish-grey
+@grey: #c2c1c1;
 @brownishGrey: #666666;
 @purple: #9b60e7;
 @cyan: #47cce6;
