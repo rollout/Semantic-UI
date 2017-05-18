@@ -9,6 +9,8 @@
 @headerFontFamily: 'Lato';
 @headerFontWeight: 'normal';
 
+@headerColor: #000;
+
 @actionBorder: none;
 @actionBackground: white;
 @actionPadding: 28px 24px;
@@ -16,11 +18,19 @@
 @contentBackground: white;
 @contentPadding: 28px 24px;
 
+/*-------------------
+      Variations
+--------------------*/
+
 /* Size Widths */
-@compactRatio: 0.47420;
+@compactRatio: 0.46;
+@smallRatio: 0.61;
 
 /* Derived Responsive Sizes */
-@compactHeaderSize: @smallHeaderSize;
+@compactHeaderSize: 1.4em;
+@smallHeaderSize: 1.7em;
+@largeHeaderSize: 2.0em;
+
 @compactMobileWidth: @mobileWidth;
 @compactTabletWidth: (@tabletWidth * @compactRatio);
 @compactComputerWidth: (@computerWidth * @compactRatio);
