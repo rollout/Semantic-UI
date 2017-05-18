@@ -17,7 +17,7 @@
 @contentPadding: 28px 24px;
 
 /* Size Widths */
-@compactRatio: 0.4420;
+@compactRatio: 0.47420;
 
 /* Derived Responsive Sizes */
 @compactHeaderSize: @smallHeaderSize;
