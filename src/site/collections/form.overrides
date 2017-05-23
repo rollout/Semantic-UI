@@ -9,3 +9,11 @@
   background: @veryLightGrey;
   color: @brownishGrey;
 }
+
+.ui.form .merged .field:first-child {
+  padding-right: 0 !important
+}
+
+.ui.form .merged .field:last-child {
+  padding-left: 0 !important
+}
