@@ -41,6 +41,8 @@
 @toggleOffOffsetInformative: @toggleLaneWidthInformative * 0.075;
 @toggleOnOffsetInformative: (@toggleLaneWidthInformative - @toggleHandleSize) - @toggleOffOffsetInformative;
 
+@toggleLabelDistanceInformative: @toggleLaneWidthInformative + 10px;
+
 @toggleOffLabelDistanceInformative: 0.15em 0 0 1.8em;
 @toggleOffLabelColorInformative: #fff;
 

@@ -96,6 +96,12 @@
   height: @toggleHeightInformative;
 }
 
+/* Label */
+.ui.toggle.checkbox.informative .box,
+.ui.toggle.checkbox.informative label {
+  padding-left: @toggleLabelDistanceInformative;
+}
+
 /* Switch */
 .ui.toggle.checkbox.informative .box:before,
 .ui.toggle.checkbox.informative label:before {
