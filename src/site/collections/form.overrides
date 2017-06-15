@@ -17,3 +17,8 @@
 .ui.form .merged .field:last-child {
   padding-left: 0 !important
 }
+
+.ui.form .field.disabled :disabled {
+  background: @veryLightGrey;
+  color: @brownishGrey;
+}
