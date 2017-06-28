@@ -1,6 +1,20 @@
 /*******************************
         User Overrides
 *******************************/
+
+.ui.popup {
+  opacity: @opacity;
+}
+
+[data-tooltip]:after {
+  opacity: @tooltipOpacity;
+}
+[data-tooltip]:hover:before {
+  opacity: @tooltipOpacity;
+}
+
+/** Error */
+
 .ui.popup.error {
   box-shadow: none;
   border-color: @red;
