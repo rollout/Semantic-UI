@@ -9,5 +9,5 @@
 @tooltipInvertedBackground: @invertedBackground;
 @invertedArrowColor: @invertedBackground;
 
-@opacity: 0.85;
+@opacity: 1;
 @tooltipOpacity: @opacity;
