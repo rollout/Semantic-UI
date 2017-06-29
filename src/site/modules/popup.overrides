@@ -9,8 +9,14 @@
 [data-tooltip]:after {
   opacity: @tooltipOpacity;
 }
+/** Using clip-path for the triangle. */
+/** With this method there will be no color blend issues with semi-transparency */
 [data-tooltip]:hover:before {
   opacity: @tooltipOpacity;
+  transform-origin: center bottom;
+  transform: rotate(180deg) scale(1) !important;
+  margin-bottom: calc(0.6em);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 /** Error */
