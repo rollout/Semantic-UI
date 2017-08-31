@@ -71,3 +71,5 @@
 
 @headerFont: @boldFont;
 @headerFontWeight: @boldFontWeight;
+
+@red: #ed5353;
