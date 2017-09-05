@@ -17,3 +17,21 @@
 .ui.labeled.icon.button > .icon {
   width: 40px;
 }
+
+/*
+ Blue info banner button
+*/
+.ui.inverted.button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: @white;
+}
+
+.ui.inverted.button:focus {
+  background: rgba(255, 255, 255, 0.15);;
+  color: @white;
+}
+
+.ui.inverted.button:active {
+  background: @white;
+  color: @blue;
+}
