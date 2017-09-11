@@ -1,6 +1,15 @@
 /*******************************
         User Overrides
 *******************************/
+.ui.disabled.dropdown,
+.ui.dropdown .menu > .disabled.item {
+  cursor: default;
+  pointer-events: none;
+  opacity: 1;
+  background: @veryLightGrey;
+  color: @brownishGrey;
+}
+
 .ui.selection.dropdown.version-selection {
   border-radius: 0;
   padding: 14px 24px;
