@@ -137,6 +137,109 @@
   left: @toggleOnOffsetInformative;
 }
 
+/*** Variation: Jumbo (On / Off) ***/
+
+.ui.toggle.checkbox.jumbo {
+  min-height: @toggleHeightJumbo;
+  width: @toggleWidthJumbo;
+}
+
+/* Input */
+.ui.toggle.checkbox.jumbo input {
+  width: @toggleWidthJumbo;
+  height: @toggleHeightJumbo;
+}
+
+/* Label */
+.ui.toggle.checkbox.jumbo .box,
+.ui.toggle.checkbox.jumbo label {
+  padding-left: @toggleLabelDistanceJumbo;
+}
+
+/* Switch */
+.ui.toggle.checkbox.jumbo .box:before,
+.ui.toggle.checkbox.jumbo label:before {
+  width: @toggleLaneWidthJumbo;
+  height: @toggleLaneHeightJumbo;
+  content: attr(data-text);
+  font-family: 'Lato-Bold';
+  font-size: @labelFontSizeJumbo;
+  color: @toggleOffLabelColorJumbo !important;
+  padding: @toggleOffLabelDistanceJumbo !important;
+  transition: @toggleHandleTransitionJumbo;
+  border-radius: @toggleRadiusJumbo;
+  letter-spacing: 1px;
+  box-shadow: 0px 2px 8px 0px #c1c2c2;
+}
+
+.ui.toggle.checkbox.jumbo .box:after,
+.ui.toggle.checkbox.jumbo label:after {
+  width: @toggleHandleSizeJumbo;
+  height: @toggleHandleSizeJumbo;
+  top: @toggleHandleOffsetJumbo;
+  border-radius: @toggleHandleRadiusJumbo;
+}
+
+.ui.toggle.checkbox.jumbo input ~ .box:after,
+.ui.toggle.checkbox.jumbo input ~ label:after {
+  left: @toggleOffOffsetJumbo;
+}
+
+/* Active */
+.ui.toggle.checkbox.jumbo input:checked ~ .box:before,
+.ui.toggle.checkbox.jumbo input:checked ~ label:before {
+  color: @toggleOnLabelColorJumbo !important;
+  padding: @toggleOnLabelDistanceJumbo !important;
+  background-color: @toggleOnLaneColorJumbo;
+}
+.ui.toggle.checkbox.jumbo input:checked ~ .box:after,
+.ui.toggle.checkbox.jumbo input:checked ~ label:after {
+  left: @toggleOnOffsetJumbo;
+}
+
+/* Disabled */
+.ui.disabled.toggle.checkbox.jumbo .box:before,
+.ui.disabled.toggle.checkbox.jumbo label:before,
+.ui.disabled.toggle.checkbox.jumbo input:focus ~ .box:before,
+.ui.disabled.toggle.checkbox.jumbo input:focus ~ label:before {
+  background-color: @grey !important;
+  color: @darkGrey;
+}
+.ui.disabled.toggle.checkbox.jumbo .box:after,
+.ui.disabled.toggle.checkbox.jumbo label,
+.ui.toggle.checkbox.jumbo input[disabled] ~ .box:after,
+.ui.toggle.checkbox.jumbo input[disabled] ~ label {
+  opacity: 0.9;
+}
+
+/* Mint */
+.ui.toggle.checkbox.jumbo.mint:not(.disabled) .box:before,
+.ui.toggle.checkbox.jumbo.mint:not(.disabled) label:before {
+  background-color: @darkMint !important;
+}
+.ui.toggle.checkbox.jumbo.mint:not(.disabled):hover .box:before,
+.ui.toggle.checkbox.jumbo.mint:not(.disabled):hover label:before {
+  background-color: #6db37c !important;
+}
+.ui.toggle.checkbox.jumbo.mint:not(.disabled) input:focus ~ .box:before,
+.ui.toggle.checkbox.jumbo.mint:not(.disabled) input:focus ~ label:before {
+  background-color: @darkMintHover !important;
+}
+
+/* Red */
+.ui.toggle.checkbox.jumbo.red:not(.disabled) .box:before,
+.ui.toggle.checkbox.jumbo.red:not(.disabled) label:before {
+  background-color: @paleRed !important;
+}
+.ui.toggle.checkbox.jumbo.red:not(.disabled):hover .box:before,
+.ui.toggle.checkbox.jumbo.red:not(.disabled):hover label:before {
+  background-color: #ba5b4a !important;
+}
+.ui.toggle.checkbox.jumbo.red:not(.disabled) input:focus ~ .box:before,
+.ui.toggle.checkbox.jumbo.red:not(.disabled) input:focus ~ label:before {
+  background-color: @paleRedHover !important;
+}
+
 /***********************/
 /*** Checkbox Colors ***/
 /***********************/

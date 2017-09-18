@@ -21,6 +21,8 @@
         Hover
 --------------------*/
 @darkMintHover: saturate(darken(@darkMint, 5), 10, relative);
+@darkPeachHover: saturate(darken(@darkPeach, 5), 10, relative);
+@paleRedHover: saturate(darken(@paleRed, 5), 10, relative);
 
 /*-------------------
         Links
@@ -48,6 +50,7 @@
 /*---  Light Colors  ---*/
 @lightBlue: #66b5ef;
 @lightGrey: #dededf; // silver
+@paleRed: #e2624a;
 
 /*---  Dark Colors  ---*/
 @darkOrange: #d5952e;
@@ -55,6 +58,7 @@
 @darkGreen: #3caf92;
 @darkBlue: #2281c7;
 @darkGrey: #9a9a9a; // warm-grey
+@darkPeach: #e96f59;
 
 /*---  Very Dark Colors  ---*/
 @veryDarkGreen: #1a9c84;
@@ -62,6 +66,7 @@
 
 /*--- Colored Text ---*/
 @darkMintTextColor: @white;
+@darkPeachTextColor: @white;
 
 /*--- Fonts --- */
 @large: 14px;

@@ -37,3 +37,39 @@ a.ui.basic[class*="dark mint"].label:hover {
   color: @darkMintHover !important;
   border-color: @darkMintHover !important;
 }
+
+/*--- Dark Peach ---*/
+.ui[class*="dark peach"].labels .label,
+.ui[class*="dark peach"].label {
+  background-color: @darkPeach !important;
+  border-color: @darkPeach !important;
+  color: @darkPeachTextColor !important;
+}
+/* Link */
+.ui[class*="dark peach"].labels .label:hover,
+a.ui[class*="dark peach"].label:hover{
+  background-color: @darkPeachHover !important;
+  border-color: @darkPeachHover !important;
+  color: @darkPeachHoverTextColor !important;
+}
+/* Corner */
+.ui[class*="dark peach"].corner.label,
+.ui[class*="dark peach"].corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui[class*="dark peach"].ribbon.label {
+  border-color: @darkPeachRibbonShadow !important;
+}
+/* Basic */
+.ui.basic[class*="dark peach"].label {
+  background-color: @white !important;
+  color: @darkPeach !important;
+  border-color: @darkPeach !important;
+}
+.ui.basic[class*="dark peach"].labels a.label:hover,
+a.ui.basic[class*="dark peach"].label:hover {
+  background-color: @white !important;
+  color: @darkPeachHover !important;
+  border-color: @darkPeachHover !important;
+}

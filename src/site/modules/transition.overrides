@@ -1,3 +1,28 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.transition.gobble {
+  transform: translateY(-100%);
+}
+
+.transition.gobble.out,
+.transition[class*="gobble down"].out {
+  animation-name: slideShow;
+  animation-direction: reverse;
+  transform-origin: top center;
+}
+
+.transition.gobble.in,
+.transition[class*="gobble down"].in {
+  animation-name: slideShow;
+  animation-direction: forwards;
+  transform-origin: top center;
+}
+
+@keyframes slide-show {
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}

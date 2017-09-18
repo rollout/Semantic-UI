@@ -4,3 +4,6 @@
 
 @darkMintHoverTextColor: @white;
 @darkMintRibbonShadow: darken(@darkMint, 10);
+
+@darkPeachHoverTextColor: @white;
+@darkPeachRibbonShadow: darken(@darkPeach, 10);
