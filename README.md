@@ -11,7 +11,7 @@ Now Gulp runs and build files in `./dist/`
 
 Now symlink to get access to css
 ```bash
-cd ~/rollout/www.tweaker.io/
+cd ~/app.rollout.io/
 mkdir -p .tmp && cd .tmp
 ln -s ~/Semantic-UI/dist semantic
 ```
