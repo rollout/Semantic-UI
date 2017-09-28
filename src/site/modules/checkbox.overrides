@@ -169,7 +169,6 @@
   transition: @toggleHandleTransitionJumbo;
   border-radius: @toggleRadiusJumbo;
   letter-spacing: 1px;
-  box-shadow: 0px 2px 8px 0px #c1c2c2;
 }
 
 .ui.toggle.checkbox.jumbo .box:after,
