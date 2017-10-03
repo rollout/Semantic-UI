@@ -177,6 +177,7 @@
   height: @toggleHandleSizeJumbo;
   top: @toggleHandleOffsetJumbo;
   border-radius: @toggleHandleRadiusJumbo;
+  transition-duration: @labelTransitionDurationJumbo;
 }
 
 .ui.toggle.checkbox.jumbo input ~ .box:after,

@@ -59,10 +59,13 @@
 @toggleWidthJumbo: @toggleLaneWidthJumbo;
 @toggleHeightJumbo: @toggleLaneHeightJumbo;
 
+@sliderTransitionDurationJumbo: 250ms;
+@labelTransitionDurationJumbo: 500ms;
+
 @toggleHandleTransitionJumbo:
-  background @sliderTransitionDuration @defaultEasing,
-  left @sliderTransitionDuration @defaultEasing,
-  padding @sliderTransitionDuration @defaultEasing
+  background @sliderTransitionDurationJumbo @defaultEasing,
+  left @sliderTransitionDurationJumbo @defaultEasing,
+  padding @sliderTransitionDurationJumbo @defaultEasing
 ;
 
 @toggleHandleRadiusJumbo: 100px;
