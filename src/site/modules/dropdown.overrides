@@ -164,3 +164,13 @@
 .ui.dropdown.error > .menu div .item:hover {
   background-color: @errorItemHoverBackground;
 }
+
+/*--------------
+   Sub Header
+---------------*/
+
+.ui.dropdown .menu .ui.header .sub.header {
+  font-family: 'Lato';
+  line-height: 1.5;
+  color: @darkGrey;
+}

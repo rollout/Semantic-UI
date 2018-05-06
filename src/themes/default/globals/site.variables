@@ -64,7 +64,7 @@
 @h2 : 1.714rem;
 @h3 : 1.28rem;
 @h4 : 1.071rem;
-@h5 : 1rem;
+@h5 : 0.9rem;
 
 /*--------------
    Form Input
@@ -446,7 +446,7 @@
 @strongSelectedBorderColor : rgba(34, 36, 38, 0.5);
 @disabledBorderColor       : rgba(34, 36, 38, 0.5);
 
-@solidInternalBorderColor  : #FAFAFA;
+@solidInternalBorderColor  : #DEDEDF;
 @solidBorderColor          : #D4D4D5;
 @solidSelectedBorderColor  : #BCBDBD;
 
