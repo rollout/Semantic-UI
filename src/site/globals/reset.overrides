@@ -1,8 +1,0 @@
-/*******************************
-         Site Overrides
-*******************************/
-b,
-strong {
-  font-family: 'Lato-bold';
-  font-weight: normal;
-}

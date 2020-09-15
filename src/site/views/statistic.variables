@@ -1,6 +1,0 @@
-/*******************************
-    User Variable Overrides
-*******************************/
-@labelFontWeight: normal;
-@labelTextTransform: none;
-@labelColor: @brownishGrey;
